@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ubah Warna</title>
+</head>
+<body id='body'>
+    <div id='id'></div>
+
+    <h1 id='id1'>Welcome</h1><br><br>
+
+    <marquee scrollamount='20'>
+        <h1>Created By Amar Khoirudin from Jakarta</h1>
+    </marquee>
+
+
+    <script>
+        var judul= document.getElementById('id');
+        judul.innerHTML= 'Ini Pake Javascript';
+        judul.style.textAlign='center';
+
+        judul.style.color='red';
+        
+        function ganti1(){
+            let a = document.getElementById('id');
+            a.style.backgroundColor= 'black';
+        }setTimeout(ganti1,  1000);
+
+        function ganti2(){
+            let b = document.getElementById('body');
+            b.style.backgroundColor= 'blue';
+        }setTimeout(ganti2,  1000);
+
+        function ganti3(){
+            let c = document.getElementById('id');
+            c.style.backgroundColor= 'white';
+        }setTimeout(ganti3,  2000);
+
+        function ganti4(){
+            let d = document.getElementById('body');
+            d.style.backgroundColor= '#ccc';
+        }setTimeout(ganti4,  2000);
+
+// id1
+
+        function ganti5(){
+            let e = document.getElementById('id1');
+            e.style.color= 'darkblue';
+            e.style.textAlign= 'center';
+        }setTimeout(ganti5,  3000);
+
+        function ganti6(){
+            let f = document.getElementById('id1');
+            f.style.backgroundColor= 'blue';
+            f.style.textAlign= 'right';
+        }setTimeout(ganti6,  4000);
+
+        function ganti7(){
+            let g = document.getElementById('id1');
+            g.style.backgroundColor= 'red';
+            g.style.color= 'white';
+            g.style.fontSize = '80px'
+            g.style.textAlign= 'right';
+            g.innerHTML= 'SEE YOU AGAIN'
+        }setTimeout(ganti7,  5000);
+
+    </script>
+</body>
+</html>
